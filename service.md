@@ -122,28 +122,28 @@ title: 预约
 ---
 
 <div class="inner row">
- 	<div class="6u 12u$(medium)" style="text-align: center;">
+ 	<div class="3u 12u$(medium)" style="text-align: center;">
     <h4>鼓楼IT侠在线互助一群</h4>
     点击<a href="https://jq.qq.com/?_wv=1027&k=5BwKZAb8">这里</a>
-    或扫二维码加入群聊<br />
-    <img src="assets/images/鼓楼IT侠在线互助群.png" height='140' width='140'>
+    或扫二维码加入群聊<br /><br />
+    <img src="assets/images/鼓楼IT侠在线互助一群.png" height='140' width='140'>
   </div>
- 	<div class="6u 12u$(medium)" style="text-align: center;">
+ 	<div class="3u 12u$(medium)" style="text-align: center;">
     <h4>鼓楼IT侠在线互助二群</h4>
     点击<a href="https://jq.qq.com/?_wv=1027&k=6OfrCoP5">这里</a>
-    或扫二维码加入群聊<br />
+    或扫二维码加入群聊<br /><br />
     <img src="assets/images/鼓楼IT侠在线互助二群.png" height='140' width='140'>
   </div>
-  <div class="6u$ 12u$(medium)" style="text-align: center;">
+  <div class="3u 12u$(medium)" style="text-align: center;">
     <h4>仙林IT侠在线互助一群</h4>
     点击<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">这里</a>
-    或扫二维码加入群聊<br />
+    或扫二维码加入群聊<br /><br />
     <img src="assets/images/仙林IT侠在线互助一群.png" height='140' width='140'>
   </div>
-  <div class="6u$ 12u$(medium)" style="text-align: center;">
+  <div class="3u$ 12u$(medium)" style="text-align: center;">
     <h4>仙林IT侠在线互助二群</h4>
     点击<a href="https://jq.qq.com/?_wv=1027&k=hKd2LUye">这里</a>
-    或扫二维码加入群聊<br />
+    或扫二维码加入群聊<br /><br />
     <img src="assets/images/仙林IT侠在线互助二群.png" height='140' width='140'>
   </div>
 </div>
