@@ -28,15 +28,15 @@ image: assets/images/recruiment.jpg
 		<ul class="alt">
 			<li>
 				<h4>主要职能</h4>
-				<p>组织如团建、外联等活动<br>负责公众号运维与宣传设计<br>传播IT侠精神、宣传IT侠文化</p>
+				<p>组织如团建、外联等活动<br>负责公众号运维与宣传设计<br>传播IT侠精神、宣传IT侠文化<br>现有意向在Bilibili发展账号并宣传！</p>
 			</li>
 			<li>
 				<h4>招收对象</h4>
-				<p>（满足一条即可）<br>心怀公益之心的小白<br>具有较高语言组织与排版编辑能力较强的运维小能手<br>奇思妙想大开脑洞的无厘头段子手<br>擅长宣传设计的野生技术协会<br>热衷约桌游、约球、水群，就算在值班也能玩出花的活跃人群<br><br>注：由于跨校区不便的问题，优先考虑仙林校区的同学，鼓楼校区只推荐意愿极强的同学加入</p>
+				<p>（满足一条即可）<br>心怀公益之心的小白<br>具有较高语言组织与排版编辑能力较强的运维小能手<br>奇思妙想大开脑洞的无厘头段子手<br>擅长宣传设计的野生技术协会<br>热衷约桌游、约球、水群，就算在值班也能玩出花的活跃人群<br>想尝试拍摄视频，剪辑视频的小伙伴们<br></p>
 			</li>
 			<li>
 				<h4>活动方式</h4>
-				<p>管理微信公众号、策划IT侠各类活动<br>负责对外联系、宣传物品制作<br>业余时间可接受 WEB 组与 GEEK 组关于电脑软硬件等方面的培训，内外兼修，提高姿势水平！</p>
+				<p>管理微信公众号、B站账号、策划IT侠各类活动<br>负责对外联系、宣传物品制作<br>业余时间可接受 WEB 组与 GEEK 组关于电脑软硬件等方面的培训，内外兼修，提高姿势水平！</p>
 			</li>
 		</ul>
 	</div>
@@ -62,6 +62,6 @@ image: assets/images/recruiment.jpg
 
 <div>
   <h3>报名通道</h3>
-  <p>扫描下方二维码，或者直接点击<a href="https://table.nju.edu.cn/dtable/forms/175053ee-02fe-41b1-8dff-5e3adb6cc2e3/">报名链接</a></p>
-  <img  src="assets/images/hiring_qrcode.png">
+  <p>扫描下方二维码，或者直接点击<a href="https://table.nju.edu.cn/dtable/forms/ab0b01d4-c8c4-4151-b8d7-2ff3438cbde7/">报名链接</a></p>
+  <img  src="assets/images/hiring_qrcode_2022.png" style="zoom:50%;">
 </div>
