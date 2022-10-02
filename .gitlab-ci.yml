@@ -4,6 +4,9 @@ pages:
   stage: build
   script:
   - gem install jekyll
+  - gem install pygments.rb
+  - gem install bundler
+  - bundler install 
   - jekyll build -d public
   artifacts:
     paths:
