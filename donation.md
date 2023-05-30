@@ -41,7 +41,7 @@ title: 捐赠
 		<h3>资金捐助</h3>
 		<p> IT侠接受任何金额的捐赠（下方支付宝扫码），请在捐赠时备注说明<b>【IT侠捐款】+ 您的信息</b>（若无则默认使用支付宝的记录）以便我们管理记录，我们将公示您的捐赠信息和去向。</p>		
 		<div align="center">
-			<img src="assets/images/alipay_donation.jpg" height='141' width='141'>
+			<img src="assets/images/alipay_donation.png" height='141' width='141'>
 		</div>
 	</div>
 </div>
