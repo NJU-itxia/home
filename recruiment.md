@@ -66,6 +66,6 @@ image: assets/images/recruiment.jpg
 
 <div>
   <h3>报名通道</h3>
-  <p>扫描下方二维码，或者直接点击<a href="https://table.nju.edu.cn/dtable/forms/ab0b01d4-c8c4-4151-b8d7-2ff3438cbde7/">报名链接</a></p>
-  <img  src="assets/images/hiring_qrcode_2022.png" style="zoom:50%;">
+  <p>扫描下方二维码，或者直接点击<a href="https://table.nju.edu.cn/dtable/forms/2ec78566-7b85-468d-a038-a1db3c215784/">报名链接</a></p>
+  <img  src="assets/images/hiring_qrcode_2023.png" style="zoom:50%;">
 </div>
