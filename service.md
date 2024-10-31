@@ -124,11 +124,13 @@ IT 侠致力于为南京大学师生提供免费的计算机软硬件维修服�
 
 ## 维修预约
 
+**近期预约系统出现连接性问题，请先使用如下的备用线路按钮**
+
+<a href="{{ site.socials.HelpNewBackup }}" class="button small"><font size="4">我已了解，开始预约（备用线路）</font></a>
+
+如备用线路无法使用，请尝试直接连接：
+
 <a href="{{ site.socials.HelpNew }}" class="button small"><font size="4">我已了解，开始预约</font></a>
-
-**近期预约系统出现联通性问题，若无法连接请使用如下的备用线路按钮**
-
-<a href="{{ site.socials.HelpNewBackup }}" class="button small"><font size="4">开始预约（备用线路）</font></a>
 
 ---
 
