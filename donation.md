@@ -37,13 +37,6 @@ title: 捐赠
 		<p><b>注：更换下的污损电脑外壳、鼓包电池等废物我们无法处理，请另寻恰当方式处理。</b></p>
 		<p>若您有捐赠意向，可在IT侠微信公众号留言或发邮件至<a href="mailto:{{ site.email }}">njuitxia@outlook.com</a>，我们将及时与您联系。您也可以在我们工作室值班时间内直接带来。</p>
 	</div>
-	<div class="6u 12u$(medium)">
-		<h3>资金捐助</h3>
-		<p> IT侠接受任何金额的捐赠（下方支付宝扫码），请在捐赠时备注说明<b>【IT侠捐款】+ 您的信息</b>（若无则默认使用支付宝的记录）以便我们管理记录，我们将公示您的捐赠信息和去向。</p>		
-		<div align="center">
-			<img src="assets/images/alipay_donation.png" height='141' width='141'>
-		</div>
-	</div>
 </div>
 
 ---
