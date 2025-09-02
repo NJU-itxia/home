@@ -191,7 +191,7 @@ IT 侠致力于为南京大学师生提供免费的计算机软硬件维修服�
     <img src="assets/images/苏州IT侠在线互助一群.png" height='140' width='140'>
   </div>
   <div class="3u$ 12u$(medium)" style="text-align: center;">
-    <h4>苏州IT侠在线互助一群</h4>
+    <h4>苏州IT侠在线互助二群</h4>
     点击<a href="https://qun.qq.com/universal-share/share?ac=1&authKey=ZKgMjXNRgjNXBI6YtCfM64soRXORzcZfv28IttIxWAutb6cBXCMpjHfoMQkA5z6c&busi_data=eyJncm91cENvZGUiOiIxMDEyOTM4MTkxIiwidG9rZW4iOiJTWUpweHdLc2VTWUhMbWExTmd5RjVmOEdQc1ZPZm8rQklHTmtXS204WlNjTGJiczAxM0tuL2lleitjSGx1UDNSIiwidWluIjoiMzE1MjUzNTY2In0%3D&data=192WvgeeB3jWG1UWh8zrKEk8_6kHfB_Fb6q_wHfNYiW2V5IiFPi7ouNAvjdVtoj8w3rTXwOnP2rGC1GHkZJLTg&svctype=4&tempid=h5_group_info">这里</a>
     或扫二维码加入群聊<br /><br />
     <img src="assets/images/苏州IT侠在线互助二群.png" height='140' width='140'>
