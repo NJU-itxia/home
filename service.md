@@ -160,41 +160,44 @@ IT 侠致力于为南京大学师生提供免费的计算机软硬件维修服�
 ---
 
 <div class="inner row">
- 	<div class="3u 12u$(medium)" style="text-align: center;">
+  <div class="4u 12u$(medium)" style="text-align: center;">
     <h4>鼓楼IT侠在线互助一群</h4>
     点击<a href="https://jq.qq.com/?_wv=1027&k=5BwKZAb8">这里</a>
     或扫二维码加入群聊<br /><br />
     <img src="assets/images/鼓楼IT侠在线互助一群.png" height='140' width='140'>
   </div>
- 	<div class="3u 12u$(medium)" style="text-align: center;">
-    <h4>鼓楼IT侠在线互助二群</h4>
-    点击<a href="https://jq.qq.com/?_wv=1027&k=6OfrCoP5">这里</a>
-    或扫二维码加入群聊<br /><br />
-    <img src="assets/images/鼓楼IT侠在线互助二群.png" height='140' width='140'>
-  </div>
-  <div class="3u 12u$(medium)" style="text-align: center;">
+  <div class="4u 12u$(medium)" style="text-align: center;">
     <h4>仙林IT侠在线互助一群</h4>
     点击<a href="https://jq.qq.com/?_wv=1027&k=5dCG0qV">这里</a>
     或扫二维码加入群聊<br /><br />
     <img src="assets/images/仙林IT侠在线互助一群.png" height='140' width='140'>
   </div>
-  <div class="3u$ 12u$(medium)" style="text-align: center;">
+  <div class="4u$ 12u$(medium)" style="text-align: center;">
+    <h4>苏州IT侠在线互助一群</h4>
+    点击<a href="https://qm.qq.com/q/4DfFT5UbfW">这里</a>
+    或扫二维码加入群聊<br /><br />
+    <img src="assets/images/苏州IT侠在线互助一群.png" height='140' width='140'>
+  </div>
+</div>
+<br />
+<div class="inner row">
+  <div class="4u 12u$(medium)" style="text-align: center;">
+    <h4>鼓楼IT侠在线互助二群</h4>
+    点击<a href="https://jq.qq.com/?_wv=1027&k=6OfrCoP5">这里</a>
+    或扫二维码加入群聊<br /><br />
+    <img src="assets/images/鼓楼IT侠在线互助二群.png" height='140' width='140'>
+  </div>
+  <div class="4u 12u$(medium)" style="text-align: center;">
     <h4>仙林IT侠在线互助二群</h4>
     点击<a href="https://jq.qq.com/?_wv=1027&k=hKd2LUye">这里</a>
     或扫二维码加入群聊<br /><br />
     <img src="assets/images/仙林IT侠在线互助二群.png" height='140' width='140'>
   </div>
-  <div class="3u$ 12u$(medium)" style="text-align: center;">
-    <h4>苏州IT侠在线互助一群</h4>
-    点击<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RHRF9Ru9QOwsd4yyShRmlVkZq6RF2v3E&authKey=w2JF0qufqESbMyweCPZDJGVJN8Mhgs9k3%2FA2jhXeAEk9wbv2iSSj205BjcfU0DcG&noverify=0&group_code=823889299">这里</a>
-    或扫二维码加入群聊<br /><br />
-    <img src="assets/images/苏州IT侠在线互助一群.png" height='140' width='140'>
-  </div>
-  <div class="3u$ 12u$(medium)" style="text-align: center;">
+  <div class="4u$ 12u$(medium)" style="text-align: center;">
     <h4>苏州IT侠在线互助二群</h4>
-    点击<a href="https://qun.qq.com/universal-share/share?ac=1&authKey=ZKgMjXNRgjNXBI6YtCfM64soRXORzcZfv28IttIxWAutb6cBXCMpjHfoMQkA5z6c&busi_data=eyJncm91cENvZGUiOiIxMDEyOTM4MTkxIiwidG9rZW4iOiJTWUpweHdLc2VTWUhMbWExTmd5RjVmOEdQc1ZPZm8rQklHTmtXS204WlNjTGJiczAxM0tuL2lleitjSGx1UDNSIiwidWluIjoiMzE1MjUzNTY2In0%3D&data=192WvgeeB3jWG1UWh8zrKEk8_6kHfB_Fb6q_wHfNYiW2V5IiFPi7ouNAvjdVtoj8w3rTXwOnP2rGC1GHkZJLTg&svctype=4&tempid=h5_group_info">这里</a>
+    点击<a href="http://qm.qq.com/q/LGcZyxlY8">这里</a>
     或扫二维码加入群聊<br /><br />
     <img src="assets/images/苏州IT侠在线互助二群.png" height='140' width='140'>
   </div>
 </div>
-<br />
+<br/>
