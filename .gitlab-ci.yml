@@ -6,6 +6,7 @@ pages:
   - gem install jekyll
   - gem install pygments.rb
   - gem install bundler
+  - bundle config set mirror.https://rubygems.org https://mirror.nju.edu.cn/rubygems
   - bundler install 
   - jekyll build -d public
   artifacts:
