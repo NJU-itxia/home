@@ -1,6 +1,7 @@
 // skel.scss v3.0.1 | (c) skel.io | MIT licensed */
 @use 'sass:map';
 @use 'sass:list';
+@use 'sass:string';
 
 // Vars.
 
@@ -86,15 +87,15 @@
 		@else if $index == 0 {
 			@warn "List index 0 must be a non-zero integer for `remove-nth`.";
 		}
-		@else if abs($index) > length($list) {
-			@warn "List index is #{$index} but list is only #{length($list)} item long for `remove-nth`.";
+		@else if abs($index) > list.length($list) {
+			@warn "List index is #{$index} but list is only #{list.length($list)} item long for `remove-nth`.";
 		}
 		@else {
 
 			$result: ();
-			$index: if($index < 0, length($list) + $index + 1, $index);
+			$index: if($index < 0, list.length($list) + $index + 1, $index);
 
-			@for $i from 1 through length($list) {
+			@for $i from 1 through list.length($list) {
 
 				@if $i != $index {
 					$result: append($result, list.nth($list, $i));
@@ -116,10 +117,10 @@
 	/// @return {string} Updated string.
 	@function str-replace($string, $search, $replace: '') {
 
-		$index: str-index($string, $search);
+		$index: string.index($string, $search);
 
 		@if $index {
-			@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+			@return string.slice($string, 1, $index - 1) + $replace + str-replace(string.slice($string, $index + string.length($search)), $search, $replace);
 		}
 
 		@return $string;
@@ -134,7 +135,7 @@
 	@function str-replace-all($strings, $search, $replace: '') {
 
 		@each $string in $strings {
-			$strings: set-nth($strings, index($strings, $string), str-replace($string, $search, $replace));
+			$strings: list.set-nth($strings, list.index($strings, $string), str-replace($string, $search, $replace));
 		}
 
 		@return $strings;
@@ -184,7 +185,7 @@
 		$query: 'screen';
 
 		// Breakpoint.
-			@if $breakpoint and map-has-key($breakpoints, $breakpoint) {
+			@if $breakpoint and map.has-key($breakpoints, $breakpoint) {
 				$query: $query + ' and ' + map.get($breakpoints, $breakpoint);
 			}
 
@@ -216,7 +217,7 @@
 		// Locked?
 			$lock: false;
 
-			@if length($width) == 2 {
+			@if list.length($width) == 2 {
 				$width: list.nth($width, 1);
 				$lock: true;
 			}
@@ -307,7 +308,7 @@
 	@mixin grid-gutters($gutters, $class: null, $multiplier: 1) {
 
 		// Expand gutters if it's not a list.
-			@if length($gutters) == 1 {
+			@if list.length($gutters) == 1 {
 				$gutters: ($gutters, 0);
 			}
 
@@ -550,16 +551,16 @@
 	@mixin vendor($property, $value) {
 
 		// Determine if property should expand.
-			$expandProperty: index($vendor-properties, $property);
+			$expandProperty: list.index($vendor-properties, $property);
 
 		// Determine if value should expand (and if so, add '-prefix-' placeholder).
 			$expandValue: false;
 
 			@each $x in $value {
 				@each $y in $vendor-values {
-					@if $y == str-slice($x, 1, str-length($y)) {
+					@if $y == string.slice($x, 1, string.length($y)) {
 
-						$value: set-nth($value, index($value, $x), '-prefix-' + $x);
+						$value: list.set-nth($value, list.index($value, $x), '-prefix-' + $x);
 						$expandValue: true;
 
 					}
