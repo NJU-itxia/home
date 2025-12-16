@@ -1,5 +1,6 @@
 // skel.scss v3.0.1 | (c) skel.io | MIT licensed */
 @use 'sass:map';
+@use 'sass:list';
 
 // Vars.
 
@@ -96,7 +97,7 @@
 			@for $i from 1 through length($list) {
 
 				@if $i != $index {
-					$result: append($result, nth($list, $i));
+					$result: append($result, list.nth($list, $i));
 				}
 
 			}
@@ -147,7 +148,7 @@
 	/// @return {string} Value.
 	@function val($map, $keys...) {
 
-		@if nth($keys, 1) == null {
+		@if list.nth($keys, 1) == null {
 			$keys: remove-nth($keys, 1);
 		}
 
@@ -216,7 +217,7 @@
 			$lock: false;
 
 			@if length($width) == 2 {
-				$width: nth($width, 1);
+				$width: list.nth($width, 1);
 				$lock: true;
 			}
 
@@ -311,8 +312,8 @@
 			}
 
 		// Get column and row gutter values.
-			$c: nth($gutters, 1);
-			$r: nth($gutters, 2);
+			$c: list.nth($gutters, 1);
+			$r: list.nth($gutters, 2);
 
 		// Get class (if provided).
 			$x: '';
