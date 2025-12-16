@@ -409,7 +409,7 @@
 					@include containers($containers);
 
 				// Apply per-breakpoint.
-					@each $name in map-keys($breakpoints) {
+					@each $name in map.keys($breakpoints) {
 
 						// Get/use breakpoint setting if it exists.
 							$x: map.get($configPerBreakpoint, $name);
@@ -491,7 +491,7 @@
 					@include grid($grid-gutters);
 
 				// Apply per-breakpoint.
-					@each $name in map-keys($breakpoints) {
+					@each $name in map.keys($breakpoints) {
 
 						// Get/use breakpoint setting if it exists.
 							$x: map.get($configPerBreakpoint, $name);
