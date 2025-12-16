@@ -1,4 +1,5 @@
 // skel.scss v3.0.1 | (c) skel.io | MIT licensed */
+@use 'sass:map';
 
 // Vars.
 
@@ -151,7 +152,7 @@
 		}
 
 		@each $key in $keys {
-			$map: map-get($map, $key);
+			$map: map.get($map, $key);
 		}
 
 		@return $map;
@@ -183,7 +184,7 @@
 
 		// Breakpoint.
 			@if $breakpoint and map-has-key($breakpoints, $breakpoint) {
-				$query: $query + ' and ' + map-get($breakpoints, $breakpoint);
+				$query: $query + ' and ' + map.get($breakpoints, $breakpoint);
 			}
 
 		// Queries.
@@ -358,14 +359,14 @@
 		// Config.
 			$configPerBreakpoint: ();
 
-			$z: map-get($config, 'breakpoints');
+			$z: map.get($config, 'breakpoints');
 
 			@if $z {
 				$configPerBreakpoint: $z;
 			}
 
 		// Reset.
-			$x: map-get($config, 'reset');
+			$x: map.get($config, 'reset');
 
 			@if $x {
 
@@ -376,7 +377,7 @@
 			}
 
 		// Box model.
-			$x: map-get($config, 'boxModel');
+			$x: map.get($config, 'boxModel');
 
 			@if $x {
 
@@ -387,7 +388,7 @@
 			}
 
 		// Containers.
-			$containers: map-get($config, 'containers');
+			$containers: map.get($config, 'containers');
 
 			@if $containers {
 
@@ -410,11 +411,11 @@
 					@each $name in map-keys($breakpoints) {
 
 						// Get/use breakpoint setting if it exists.
-							$x: map-get($configPerBreakpoint, $name);
+							$x: map.get($configPerBreakpoint, $name);
 
 							// Per-breakpoint config exists?
 								@if $x {
-									$y: map-get($x, 'containers');
+									$y: map.get($x, 'containers');
 
 									// Setting exists? Use it.
 										@if $y {
@@ -424,7 +425,7 @@
 								}
 
 						// Create @media block.
-							@media screen and #{map-get($breakpoints, $name)} {
+							@media screen and #{map.get($breakpoints, $name)} {
 								@include containers($containers);
 							}
 
@@ -433,7 +434,7 @@
 			}
 
 		// Grid.
-			$grid: map-get($config, 'grid');
+			$grid: map.get($config, 'grid');
 
 			@if $grid {
 
@@ -446,7 +447,7 @@
 
 				// Sub-setting: Gutters.
 					$grid-gutters: 40px;
-					$x: map-get($grid, 'gutters');
+					$x: map.get($grid, 'gutters');
 
 					@if $x {
 						$grid-gutters: $x;
@@ -492,17 +493,17 @@
 					@each $name in map-keys($breakpoints) {
 
 						// Get/use breakpoint setting if it exists.
-							$x: map-get($configPerBreakpoint, $name);
+							$x: map.get($configPerBreakpoint, $name);
 
 							// Per-breakpoint config exists?
 								@if $x {
-									$y: map-get($x, 'grid');
+									$y: map.get($x, 'grid');
 
 									// Setting exists?
 										@if $y {
 
 											// Sub-setting: Gutters.
-												$x: map-get($y, 'gutters');
+												$x: map.get($y, 'gutters');
 
 												@if $x {
 													$grid-gutters: $x;
@@ -513,7 +514,7 @@
 								}
 
 						// Create @media block.
-							@media screen and #{map-get($breakpoints, $name)} {
+							@media screen and #{map.get($breakpoints, $name)} {
 								@include grid($grid-gutters, $name);
 							}
 
