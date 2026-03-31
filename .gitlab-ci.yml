@@ -1,16 +1,41 @@
-image: ruby
+variables:
+  IMAGE_NAME: $CI_REGISTRY_IMAGE
+  IMAGE_TAG: $CI_COMMIT_SHORT_SHA
 
-pages:
+image: docker:26.1.4
+
+stages:
+  - build
+  - push
+
+before_script:
+  - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+
+build:
   stage: build
+  tags:
+    - docker-in-docker
   script:
-  - gem install jekyll
-  - gem install pygments.rb
-  - gem install bundler
-  - bundle config set mirror.https://rubygems.org https://mirrors.tuna.tsinghua.edu.cn/rubygems
-  - bundler install 
-  - jekyll build -d public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
+    - docker build -t $IMAGE_NAME:$IMAGE_TAG .
+    - |
+      if [ "$CI_COMMIT_REF_NAME" = "master" ]; then
+        echo "tagging master image to latest"
+        docker tag $IMAGE_NAME:$IMAGE_TAG $IMAGE_NAME:latest
+      fi
+  rules:
+    - if: $CI_COMMIT_BRANCH
+
+push:
+  stage: push
+  tags:
+    - docker-in-docker
+  needs: ["build"]
+  script:
+    - docker push $IMAGE_NAME:$IMAGE_TAG
+    - |
+      if [ "$CI_COMMIT_REF_NAME" = "master" ]; then
+        echo "pushing latest image"
+        docker push $IMAGE_NAME:latest
+      fi
+  rules:
+    - if: $CI_COMMIT_BRANCH
