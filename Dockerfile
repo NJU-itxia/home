@@ -1,4 +1,4 @@
-FROM ruby AS build
+FROM ruby:3 AS build
 
 WORKDIR /src
 COPY . .
