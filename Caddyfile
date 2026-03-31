@@ -1,0 +1,6 @@
+:4000
+
+encode gzip zstd
+root * /html
+file_server
+try_files {path} /index.html
