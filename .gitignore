@@ -5,6 +5,7 @@ _site
 Gemfile.lock
 *.gem
 *.swp
+public/
 
 # node
 node_modules/
