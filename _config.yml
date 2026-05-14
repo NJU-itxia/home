@@ -1,7 +1,7 @@
 # site settings
 title: NJU-ITXIA
 # subtitle: 
-email: njuitxia@outlook.com
+email: itxia@nju.edu.cn
 description: 侠之大者为国为民 侠之小者为友为邻 
 baseurl: "/about" # the subpath of your site, e.g. /blog
 url: https://itxia.nju.edu.cn # the base hostname & protocol for your site
