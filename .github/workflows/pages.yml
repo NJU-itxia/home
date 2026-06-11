@@ -1,0 +1,59 @@
+name: Deploy redirect page
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Generate redirect files
+        run: |
+          mkdir -p public
+
+          cat > public/index.html <<'EOF'
+          <!doctype html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="refresh" content="0; url=https://itxia.nju.edu.cn/about/">
+            <link rel="canonical" href="https://itxia.nju.edu.cn/about/">
+            <title>正在跳转到新域名...</title>
+          </head>
+          <body>
+            <p>正在跳转到 <a href=" ">https://itxia.nju.edu.cn/about/</a ></p >
+            <script>
+              window.location.replace("https://itxia.nju.edu.cn/about/");
+            </script>
+          </body>
+          </html>
+          EOF
+
+          cp public/index.html public/404.html
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
